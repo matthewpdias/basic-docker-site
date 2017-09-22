@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+
+  nginx:
+    build: "https://github.com/matthewpdias/basic-docker-site.git"
+    ports:
+      - "80:80"

@@ -1,7 +1,7 @@
 FROM nginx
 
-COPY start.sh /
-
 COPY html /usr/share/nginx/html
+
+COPY start.sh /
 
 CMD ["./start.sh"]
